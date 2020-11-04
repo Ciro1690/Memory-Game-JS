@@ -47,7 +47,6 @@ function createDivsForColors(colorArray) {
     const newDiv = document.createElement("div");
     // give it a class attribute for the value we are looping over
     newDiv.classList.add(color);
-    newDiv.style.backgroundColor = '#ccc'
     newDiv.id = 'card-id'
     // call a function handleCardClick when a div is clicked on
     newDiv.addEventListener("click", handleCardClick);
